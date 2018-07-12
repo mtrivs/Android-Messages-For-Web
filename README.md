@@ -2,8 +2,8 @@
 Unofficial Chrome app created to make it easier for ChromeOS users to access android messages.  This will open the https://messages.android.com page within a ChromeOS app window, instead of opening messages in a chrome tab.  This shows a handy icon in the app drawer and also supports multi-tasking with an app window that can be resized to fit your workspace requirements!
 
 Changelog:
-v1.3 - Initial release
-v1.5 - Added a dark titlebar theme and theme toggle button next to window controls.  Make your app window styling match the theme used by Android Messages for Web!
+ -:v1.3:- Initial release
+ -:v1.5:- Added a dark titlebar theme and theme toggle button next to window controls.  Make your app window styling match the theme used by Android Messages for Web!
 
 # Check your SMS text messages on your computer!
 https://support.google.com/messages/answer/7611075
