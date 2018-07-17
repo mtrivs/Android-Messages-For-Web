@@ -1,6 +1,6 @@
 {
   "name": "Android Messages For Web",
-  "version": "1.6",
+  "version": "1.7",
   "manifest_version": 2,
   "minimum_chrome_version": "37.0.0.0",
   "permissions": [
