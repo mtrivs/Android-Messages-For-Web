@@ -2,14 +2,6 @@
 // Referenced Caret titlebar styling
 // http://thomaswilburn.net/caret/
 //
-img {
-  display: block;
-  vertical-align: middle;
-  max-height:100%;
-  max-width: 25px;
-  -webkit-app-region: drag;
-  padding-right:5px;
-}
 .titlebar {
   flex: 0 0 30px;
   z-index: 999;
@@ -24,6 +16,13 @@ img {
   justify-content: flex-start;
   padding: 4px 10px;
   background: #252629;
+}
+.titlebar .icon {
+  display: block;
+  max-height:100%;
+  max-width: 25px;
+  -webkit-app-region: drag;
+  padding-right:5px;
 }
 .titlebar .app-name {
   margin-right: 10px;
