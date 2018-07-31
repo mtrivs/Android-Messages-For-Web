@@ -1,37 +1,9 @@
 {
-  "name": "Android Messages For Web",
-  "version": "1.7",
   "manifest_version": 2,
-  "minimum_chrome_version": "37.0.0.0",
-  "permissions": [
-    "webview",
-    "notifications",
-    "storage",
-    "power",
-    "browser",
-    "system.display",
-    {
-      "fileSystem": [
-        "write",
-        "retainEntries",
-        "directory"
-      ]
-    },
-    "accessibilityFeatures.read"
-  ],
-  "app": {
-    "background": {
-      "scripts": [
-        "js\/foam.js",
-        "js\/cab.js",
-        "js\/window.js",
-        "config.js",
-        "background_main.js"
-      ]
-    }
-  },
-  "default_locale": "en",
+  "name": "Android Messages For Web",
   "description": "Unofficial Chrome app created to make it easier for ChromeOS users to access Android messages.",
+  "version": "2.0",
+  "minimum_chrome_version": "37.0.0.0",
   "icons": {
     "256": "img\/256.png",
     "128": "img\/128.png",
@@ -40,5 +12,21 @@
     "48": "img\/48.png",
     "32": "img\/32.png",
     "16": "img\/16.png"
-  }
+  },
+  "app": {
+    "background": {
+      "scripts": [
+        "js\/background.js"
+      ],
+      "pages": [
+        "html\/embed.html"
+      ]
+    }
+  },
+  "permissions": [
+    "webview",
+    "notifications",
+    "storage",
+    "browser"
+  ]
 }

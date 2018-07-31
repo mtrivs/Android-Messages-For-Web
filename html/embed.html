@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Android Messages For Web</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/light.css" id="theme_css">
+    <script src="../js/theme.js"></script>
+</head>
+<body class="trim full">
+   <!-- Create our app titlebar -->
+   <div class="titlebar">
+      <img src="../img/icon.png" class="icon" alt="Android Messages for Web">
+      <b class="app-name">android messages</b>
+      <!-- Create our window controls in the titlebar -->
+      <div class="window-controls">
+        <button class="i18n" id="theme" title="Switch Theme">T</button>
+        <button class="i18n" id="minimize" title="Minimize">-</button>
+        <button class="i18n" id="maximize" title="Maximize">+</button>
+        <button class="close i18n" id="exit" title="Exit">x</button>
+      </div>
+    </div>
+    <!-- Most magic happens here -->
+    <webview id="webview" src="https://messages.android.com/" partition="persist:applicationize"></webview>
+    
+    <!-- Find in page -->
+    <div id="find-box">
+        <input type="text" id="find-text" placeholder="Find in page">
+    </div>
+
+    <!-- Alert/Confirm box -->
+    <div id="dialog-box">
+      <div id="dialog-box-text">Example dialog text</div>
+      <input type="text" id="dialog-box-input">
+      <button class="dialog-box-button" id="dialog-box-cancel">Cancel</button>
+      <button class="dialog-box-button" id="dialog-box-ok">OK</button>
+    </div>
+
+    <!-- Embed script to capture keystrokes -->
+    <script src="../js/embed.js"></script>
+    <!-- Embed script to capture clicks on the titlebar window controls -->
+    <script src="../js/window.js"></script>
+</body>
+</html>
