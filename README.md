@@ -4,16 +4,16 @@ Features in this branch may be unstable and down right broken.  Proceed at your 
 # Android Messages For Web
 Unofficial Chrome app created to make it easier for ChromeOS users to access android messages.  This will open the https://messages.android.com page within a ChromeOS app window, instead of opening messages in a chrome tab.  This shows a handy icon in the app drawer and also supports multi-tasking with an app window that can be resized to fit your workspace requirements!
 
-# Changelog:
+## Changelog:
  - v1.8: *NEW* Started from a fresh base from Applicationize, which has a much smaller footprint.
  - v1.5: Added a dark titlebar theme and theme toggle button next to window controls.  Make your app window styling match the theme used by Android Messages for Web!
  - v1.3: Initial release
 
 
-# Bugs:
+## Bugs:
 - When clicking on links from within the webpage (i.e. text messages containing links), the URL is not passed to the new browser window and instead opens an about:blank page.
 
-# Check your SMS text messages on your computer!
+### Check your SMS text messages on your computer!
 https://support.google.com/messages/answer/7611075
 You can use your computer to chat with your friends through Messages for web, which shows what’s on your Android Messages mobile app. Android Messages for web sends SMS messages using a connection from your computer to your phone, so carrier fees will apply, just like on the mobile app.
 
