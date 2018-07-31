@@ -49,7 +49,6 @@ function theme() {
   });
 }
 
-
 // Listen for clicks on the titlebar buttons
 document.getElementById("minimize").addEventListener("click", minimize);
 document.getElementById("maximize").addEventListener("click", maximize);
