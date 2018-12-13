@@ -1,3 +1,4 @@
+# *Depreciated* - Google has since released their own Chrome app that does everything this app does and more.   Please update to the latest ChromeOS to receive the official Android Messages app.
 
 # Android Messages For Web
 Unofficial Chrome app created to make it easier for ChromeOS users to access android messages.  This will open the https://messages.android.com page within a ChromeOS app window, instead of opening messages in a chrome tab.  This shows a handy icon in the app drawer and also supports multi-tasking with an app window that can be resized to fit your workspace requirements!
